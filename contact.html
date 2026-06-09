@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Contact | Mwangu Digital</title>
+
+  <meta
+    name="description"
+    content="Contact Mwangu Digital for social media management, content creation, digital marketing, branding, and website design services in Malawi."
+  />
+
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+  <link rel="apple-touch-icon" href="favicon.png">
+
+  <link rel="stylesheet" href="style.css" />
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+</head>
+
+<body>
+
+<header class="navbar">
+  <a href="index.html" class="logo">
+    <img src="logo.png" alt="Mwangu Digital Logo" class="logo-image">
+    <div class="logo-text">Mwangu<span>Digital</span></div>
+  </a>
+
+  <nav id="navMenu" aria-label="Main navigation">
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="packages.html">Packages</a>
+    <a href="contact.html" class="active">Contact</a>
+  </nav>
+
+  <a href="contact.html" class="nav-cta">Get Started</a>
+
+  <button class="menu-btn" onclick="toggleMenu()" aria-label="Open Menu">
+    ☰
+  </button>
+</header>
+
+<main>
+
+<section class="page-hero">
+  <div>
+    <p class="tagline">Contact Us</p>
+    <h1>Let’s grow your brand together.</h1>
+    <p>
+      Ready to improve your online presence? Get in touch with Mwangu Digital
+      and let’s discuss the best digital marketing solution for your business.
+    </p>
+  </div>
+</section>
+
+<section class="contact-section">
+
+  <div class="contact-info">
+
+    <h2>Get in touch</h2>
+    <p>
+      Whether you need social media management, content creation, paid ads,
+      branding, or a full digital strategy, we are ready to help.
+    </p>
+
+    <div class="contact-card">
+      <i class="fa-solid fa-phone"></i>
+      <div>
+        <h3>Phone / WhatsApp</h3>
+        <a href="https://wa.me/265999172809" target="_blank">0999 172 809</a>
+      </div>
+    </div>
+
+    <div class="contact-card">
+      <i class="fa-solid fa-envelope"></i>
+      <div>
+        <h3>Email</h3>
+        <a href="mailto:mwangudigital@gmail.com">mwangudigital@gmail.com</a>
+      </div>
+    </div>
+
+    <div class="contact-card">
+      <i class="fa-solid fa-location-dot"></i>
+      <div>
+        <h3>Location</h3>
+        <p>Malawi</p>
+      </div>
+    </div>
+
+    <div class="contact-card">
+      <i class="fa-solid fa-clock"></i>
+      <div>
+        <h3>Working Hours</h3>
+        <p>Monday - Friday, 8:00 AM - 5:00 PM</p>
+      </div>
+    </div>
+
+  </div>
+
+  <form class="contact-form">
+    <h2>Send us a message</h2>
+
+    <div class="form-group">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" placeholder="Enter your name">
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email Address</label>
+      <input type="email" id="email" placeholder="Enter your email">
+    </div>
+
+    <div class="form-group">
+      <label for="phone">Phone Number</label>
+      <input type="text" id="phone" placeholder="Enter your phone number">
+    </div>
+
+    <div class="form-group">
+      <label for="service">Service Interested In</label>
+      <select id="service">
+        <option>Social Media Management</option>
+        <option>Content Creation</option>
+        <option>Paid Advertising</option>
+        <option>Branding & Design</option>
+        <option>Website Design</option>
+        <option>Email & WhatsApp Marketing</option>
+        <option>Full Digital Marketing Package</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="message">Message</label>
+      <textarea id="message" rows="6" placeholder="Tell us what you need"></textarea>
+    </div>
+
+    <button type="submit" class="btn pricing-btn">Send Message</button>
+  </form>
+
+</section>
+
+</main>
+
+<footer>
+  <p>© 2026 Mwangu Digital. All Rights Reserved.</p>
+</footer>
+
+<a
+  href="https://wa.me/265999172809"
+  class="whatsapp-float"
+  target="_blank"
+  aria-label="Chat with Mwangu Digital on WhatsApp"
+>
+  <i class="fa-brands fa-whatsapp"></i>
+</a>
+
+<script>
+  function toggleMenu() {
+    document.getElementById("navMenu").classList.toggle("active");
+  }
+</script>
+
+</body>
+</html>

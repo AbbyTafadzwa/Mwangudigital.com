@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Packages | Mwangu Digital</title>
+
+  <meta
+    name="description"
+    content="Explore Mwangu Digital social media management and digital marketing packages for businesses in Malawi."
+  />
+
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+  <link rel="apple-touch-icon" href="favicon.png">
+
+  <link rel="stylesheet" href="style.css" />
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+</head>
+
+<body>
+
+<header class="navbar">
+  <a href="index.html" class="logo">
+    <img src="logo.png" alt="Mwangu Digital Logo" class="logo-image">
+    <div class="logo-text">Mwangu<span>Digital</span></div>
+  </a>
+
+  <nav id="navMenu" aria-label="Main navigation">
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="packages.html" class="active">Packages</a>
+  <a href="contact.html">Contact</a>
+  </nav>
+
+  <a href="index.html#contact" class="nav-cta">Get Started</a>
+
+  <button class="menu-btn" onclick="toggleMenu()" aria-label="Open Menu">
+    ☰
+  </button>
+</header>
+
+<main>
+
+<section class="page-hero">
+  <div>
+    <p class="tagline">Our Packages</p>
+    <h1>Choose the right digital growth package for your business.</h1>
+    <p>
+      Whether you are just starting online or ready for full digital support,
+      Mwangu Digital has a package designed to help your brand grow.
+    </p>
+  </div>
+</section>
+
+<section class="pricing-section">
+
+  <article class="pricing-card">
+    <div class="pricing-icon"><i class="fa-solid fa-rocket"></i></div>
+    <h2>Starter Package</h2>
+    <p class="package-subtitle">The perfect start for your business.</p>
+
+    <div class="price">MK150,000 <span>/ month</span></div>
+    <p class="ads-note">+ MK25,000 recommended ad budget</p>
+
+    <ul>
+      <li>Facebook & Instagram Management</li>
+      <li>3 Branded Posts Per Week</li>
+      <li>Professional Flyer Designs</li>
+      <li>Caption Writing</li>
+      <li>Monthly Performance Insights</li>
+    </ul>
+
+    <div class="pricing-actions">
+      <a href="contact.html" class="btn pricing-btn">Choose Starter</a>
+      <button class="view-package" onclick="openModal('starterModal')">View Full Package</button>
+    </div>
+  </article>
+ 
+  <article class="pricing-card featured-pricing">
+    <span class="recommended-badge">Most Popular</span>
+    <div class="pricing-icon"><i class="fa-solid fa-chart-line"></i></div>
+    <h2>Growth Package</h2>
+    <p class="package-subtitle">Grow your business faster and smarter.</p>
+
+    <div class="price">MK300,000 <span>/ month</span></div>
+    <p class="ads-note">+ MK25,000 recommended ad budget</p>
+
+    <ul>
+      <li>Facebook, Instagram & TikTok</li>
+      <li>Up to 20 Flyers/Videos Per Month</li>
+      <li>Short-form Video Content</li>
+      <li>Paid Advertising Management</li>
+      <li>Monthly Analytics Report</li>
+    </ul>
+
+    <div class="pricing-actions">
+     <a href="contact.html" class="btn pricing-btn">Choose Growth</a>
+      <button class="view-package" onclick="openModal('growthModal')">View Full Package</button>
+    </div>
+  </article>
+
+  <article class="pricing-card">
+    <div class="pricing-icon"><i class="fa-solid fa-star"></i></div>
+    <h2>Business Plus</h2>
+    <p class="package-subtitle">The complete solution to grow your business.</p>
+
+    <div class="price">MK500,000 <span>/ month</span></div>
+    <p class="ads-note">+ MK25,000 recommended ad budget</p>
+
+    <ul>
+      <li>Professional Website - Up to 5 Pages</li>
+      <li>Free Domain & Hosting - First Year</li>
+      <li>SEO, Email & WhatsApp Marketing</li>
+      <li>Google Business Profile Setup</li>
+      <li>Advanced Analytics & Reporting</li>
+    </ul>
+
+    <div class="pricing-actions">
+      <a href="contact.html" class="btn pricing-btn">Choose Business Plus</a>
+      <button class="view-package" onclick="openModal('businessModal')">View Full Package</button>
+    </div>
+  </article>
+
+  <article class="pricing-card custom-pricing">
+    <div class="pricing-icon"><i class="fa-solid fa-crown"></i></div>
+    <h2>Custom Enterprise</h2>
+    <p class="package-subtitle">For bigger brands that need a tailored solution.</p>
+
+    <div class="price">Custom <span>/ quote</span></div>
+    <p class="ads-note">Pricing based on your requirements</p>
+
+    <ul>
+      <li>Dedicated Account Manager</li>
+      <li>Multi-platform Campaign Management</li>
+      <li>Advanced Paid Advertising</li>
+      <li>Large-scale Content Production</li>
+      <li>Custom Strategy & Reporting</li>
+    </ul>
+
+    <div class="pricing-actions">
+      <a href="contact.html" class="btn pricing-btn">Request Quote</a>
+      <button class="view-package" onclick="openModal('customModal')">View Full Package</button>
+    </div>
+  </article>
+
+</section>
+
+<section class="package-note">
+  <h2>Not sure which package fits your business?</h2>
+  <p>
+    Talk to us and we’ll recommend the best option based on your business goals,
+    budget, and current online presence.
+  </p>
+
+  <a href="https://wa.me/265999172809" class="btn primary" target="_blank">
+    Chat on WhatsApp
+  </a>
+</section>
+
+</main>
+
+<footer>
+  <p>© 2026 Mwangu Digital. All Rights Reserved.</p>
+</footer>
+
+<a
+  href="https://wa.me/265999172809"
+  class="whatsapp-float"
+  target="_blank"
+  aria-label="Chat with Mwangu Digital on WhatsApp"
+>
+  <i class="fa-brands fa-whatsapp"></i>
+</a>
+
+<!-- STARTER MODAL -->
+<div class="package-modal" id="starterModal">
+  <div class="modal-box">
+    <button class="close-modal" onclick="closeModal('starterModal')">&times;</button>
+    <h2>Starter Package</h2>
+    <p class="modal-price">MK150,000 / month</p>
+    <p class="ads-note">+ MK25,000 recommended ad budget</p>
+
+    <div class="modal-list">
+      <span>Facebook Management</span>
+      <span>Instagram Management</span>
+      <span>3 Branded Posts Per Week</span>
+      <span>Professional Flyer Designs</span>
+      <span>Occasional Short-form Videos/Reels</span>
+      <span>Caption Writing</span>
+      <span>Basic Page Optimization</span>
+      <span>Monthly Performance Insights</span>
+    </div>
+
+    <a href="index.html#contact" class="btn pricing-btn">Choose Starter</a>
+  </div>
+</div>
+
+<!-- GROWTH MODAL -->
+<div class="package-modal" id="growthModal">
+  <div class="modal-box">
+    <button class="close-modal" onclick="closeModal('growthModal')">&times;</button>
+    <h2>Growth Package</h2>
+    <p class="modal-price">MK300,000 / month</p>
+    <p class="ads-note">+ MK25,000 recommended ad budget</p>
+
+    <div class="modal-list">
+      <span>Facebook Management</span>
+      <span>Instagram Management</span>
+      <span>TikTok Management</span>
+      <span>Up to 20 Flyers/Videos Per Month</span>
+      <span>Short-form Video Content</span>
+      <span>Reels Optimization</span>
+      <span>Caption Writing & Hashtag Strategy</span>
+      <span>Audience Engagement Support</span>
+      <span>Paid Advertising Management</span>
+      <span>Monthly Analytics Report</span>
+      <span>Content Planning Support</span>
+    </div>
+
+    <a href="index.html#contact" class="btn pricing-btn">Choose Growth</a>
+  </div>
+</div>
+
+<!-- BUSINESS PLUS MODAL -->
+<div class="package-modal" id="businessModal">
+  <div class="modal-box">
+    <button class="close-modal" onclick="closeModal('businessModal')">&times;</button>
+    <h2>Business Plus</h2>
+    <p class="modal-price">MK500,000 / month</p>
+    <p class="ads-note">+ MK25,000 recommended ad budget</p>
+
+    <div class="modal-list">
+      <span>Professional Business Website - Up to 5 Pages</span>
+      <span>Free Domain & Hosting - First Year</span>
+      <span>Search Engine Optimization SEO</span>
+      <span>WhatsApp Marketing</span>
+      <span>Email Marketing</span>
+      <span>Google Business Profile Setup</span>
+      <span>Social Media Strategy Planning</span>
+      <span>Branding Consultation</span>
+      <span>Monthly Content Calendar Planning</span>
+      <span>Priority Support</span>
+      <span>Monthly Strategy Meetings</span>
+      <span>Advanced Analytics & Reporting</span>
+    </div>
+
+    <a href="index.html#contact" class="btn pricing-btn">Choose Business Plus</a>
+  </div>
+</div>
+
+<!-- CUSTOM MODAL -->
+<div class="package-modal" id="customModal">
+  <div class="modal-box">
+    <button class="close-modal" onclick="closeModal('customModal')">&times;</button>
+    <h2>Custom Enterprise</h2>
+    <p class="modal-price">Custom Quote</p>
+    <p class="ads-note">Pricing based on your requirements</p>
+
+    <div class="modal-list">
+      <span>Dedicated Account Manager</span>
+      <span>Multi-platform Campaign Management</span>
+      <span>Advanced Paid Advertising</span>
+      <span>Large-scale Content Production</span>
+      <span>Corporate Branding Campaigns</span>
+      <span>Influencer Marketing Support</span>
+      <span>PR & Launch Campaign Planning</span>
+      <span>Custom Website Development</span>
+      <span>Advanced SEO Strategy</span>
+      <span>Monthly Executive Reports</span>
+      <span>Priority Support & Consultations</span>
+      <span>Completely Tailored Strategy</span>
+    </div>
+
+    <a href="index.html#contact" class="btn pricing-btn">Request Quote</a>
+  </div>
+</div>
+
+<script>
+  function toggleMenu() {
+    document.getElementById("navMenu").classList.toggle("active");
+  }
+
+  function openModal(id) {
+    document.getElementById(id).classList.add("show");
+  }
+
+  function closeModal(id) {
+    document.getElementById(id).classList.remove("show");
+  }
+</script>
+
+</body>
+</html>
