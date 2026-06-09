@@ -124,8 +124,8 @@ nav a.active::after {
 /* HERO */
 
 .hero {
-  min-height: 100vh;
-  padding: 135px 8% 90px;
+  min-height: 85vh;
+  padding: 130px 8% 70px;
   background:
     radial-gradient(circle at 72% 48%, rgba(167, 233, 87, 0.18), transparent 34%),
     linear-gradient(135deg, #061b11 0%, #0b2a1b 42%, #103b23 100%);
@@ -153,9 +153,9 @@ nav a.active::after {
 }
 
 .hero h1 {
-  font-size: 64px;
-  line-height: 1.08;
-  margin-bottom: 28px;
+  font-size: 50px;
+  line-height: 1.1;
+  margin-bottom: 18px;
   letter-spacing: -2px;
 }
 
