@@ -1209,3 +1209,71 @@ footer {
     font-size: 28px;
   }
 }
+
+/* FINAL MOBILE FIXES */
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 12px 5%;
+  }
+
+  .nav-cta {
+    display: none !important;
+  }
+
+  .logo-image {
+    width: 34px;
+    height: 34px;
+  }
+
+  .logo-text {
+    font-size: 20px;
+  }
+
+  .menu-btn {
+    display: block;
+    font-size: 30px;
+  }
+
+  .hero {
+    min-height: auto;
+    padding: 120px 6% 55px;
+    gap: 28px;
+  }
+
+  .tagline {
+    font-size: 13px;
+    margin-bottom: 18px;
+  }
+
+  .hero h1 {
+    font-size: 38px;
+    line-height: 1.12;
+    margin-bottom: 15px;
+  }
+
+  .hero-subheading {
+    font-size: 24px;
+    line-height: 1.25;
+    margin-bottom: 18px;
+  }
+
+  .hero-content > p {
+    font-size: 16px;
+    line-height: 1.7;
+  }
+
+  .hero-buttons {
+    margin-top: 26px;
+  }
+
+  .hero-buttons .btn {
+    width: 100%;
+  }
+
+  .hero-image {
+    width: 100% !important;
+    max-width: 330px !important;
+    margin: 10px auto 0 !important;
+  }
+}
