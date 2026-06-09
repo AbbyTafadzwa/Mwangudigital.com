@@ -351,56 +351,63 @@ nav a.active::after {
 
 /* PACKAGES */
 
-.packages {
-  background: var(--white);
-}
-
-.package-grid {
-  margin-top: 45px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 25px;
-}
-
-.package-card {
-  padding: 40px 30px;
-  border-radius: 22px;
-  background: var(--white);
-  border: 1px solid var(--soft-border);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
-  transition: 0.35s ease;
-}
-
-.package-card:hover {
-  transform: translateY(-8px);
-  border-color: var(--primary);
-}
-
-.package-card h3 {
-  margin: 20px 0 12px;
-  font-size: 24px;
-  color: var(--primary);
-}
-
-.package-card p {
-  line-height: 1.7;
-  color: #555555;
-}
-
-.featured {
-  border: 2px solid var(--primary);
-  background: var(--light);
-}
-
-.featured span {
-  background: var(--primary);
+.packages-preview {
+  margin: 90px 8%;
+  padding: 70px 8%;
+  text-align: center;
+  background:
+    radial-gradient(circle at top right, rgba(167,233,87,0.22), transparent 35%),
+    linear-gradient(135deg, #061b11, #103b23);
+  border-radius: 34px;
   color: var(--white);
-  padding: 8px 16px;
-  border-radius: 20px;
-  font-size: 13px;
-  font-weight: 800;
 }
 
+.packages-preview h2 {
+  color: var(--white);
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.packages-preview p {
+  max-width: 720px;
+  margin: 0 auto 32px;
+  color: #e9f3e5;
+  line-height: 1.8;
+  font-size: 18px;
+}
+
+.package-tags {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-bottom: 35px;
+}
+
+.package-tags span {
+  background: rgba(255,255,255,0.12);
+  color: var(--lime);
+  padding: 12px 22px;
+  border-radius: 30px;
+  font-weight: 700;
+  border: 1px solid rgba(255,255,255,0.16);
+}
+
+.packages-preview .primary {
+  background: var(--lime);
+  color: #08180f;
+}
+
+@media (max-width: 768px) {
+  .packages-preview {
+    margin: 70px 6%;
+    padding: 55px 6%;
+  }
+
+  .packages-preview h2 {
+    font-size: 30px;
+  }
+}
 /* CTA */
 
 .cta {
@@ -415,6 +422,35 @@ nav a.active::after {
   margin-top: 20px !important;
   font-weight: 700;
   color: var(--primary) !important;
+}
+
+.cta {
+    background: var(--light);
+    padding: 50px 8% 70px;
+    text-align: center;
+}
+
+.cta h2 {
+    font-size: 38px;
+    margin-bottom: 15px;
+    color: var(--primary);
+}
+
+.cta p {
+    max-width: 650px;
+    margin: 0 auto;
+    line-height: 1.8;
+    color: var(--text);
+}
+
+.cta .primary {
+    margin-top: 25px;
+}
+
+.email {
+    margin-top: 20px !important;
+    font-weight: 700;
+    color: var(--primary) !important;
 }
 
 /* FOOTER */
